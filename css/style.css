@@ -1,0 +1,52 @@
+[class*=col-] {
+background-color: grey;
+box-sizing: border-box;
+border: 3px solid lightgray;
+} 
+
+.tall{	
+	height: 600px;	
+	overflow: hidden;  	
+}
+
+.wide{
+	height: 200px;		
+  	overflow: hidden;
+}
+
+.wide2{
+	height: 200px;		
+  	overflow: hidden;
+}
+
+.wide>p > img {
+	width: 100%;
+	position: relative;
+	z-index: 1;   	
+}
+
+.wide>p > img {
+	width: 100%;
+	position: relative;
+	z-index: 1;   	
+}
+
+.tall>p > img {
+	height: 100%;
+	position: relative;
+	z-index: 1;
+}
+
+p {
+	margin: 0px;
+	padding: 0px;
+	align-items: center;
+}
+
+h2 {
+	background-color: grey;
+	position: absolute;	
+	z-index: 2;
+	color: white;
+}
+
