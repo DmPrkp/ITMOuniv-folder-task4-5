@@ -1,0 +1,103 @@
+html {
+    font-family: "Consolas";
+}
+
+.menu {	
+	padding: 10px;	
+}
+
+.form {
+    background-color: #66ccff;
+    width: 300px;
+    outline: none;
+    border: 3px solid green;
+}
+
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input:focus {
+    background-color: lightblue;
+}
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 26px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+ul li {
+    display: inline;
+    margin: 1px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:focus {
+    color: black;
+}
+
+.visibility {
+	visibility: visible;
+}
+
+.static, .fixed {
+	border: 1px solid gray;
+}
+
+.static {
+	position: static;
+    border: 1px solid gray;
+}
+
+.fixed {
+	position: fixed;
+	background-color: whitesmoke;
+	top: 0px;
+	left: 0px;
+	right: 100px;
+    border: 1px solid gray;
+}
+
+.relative {
+    position: relative;
+    top: 1000px;
+    left: 0px;
+    right: 100px;
+    border: 1px solid gray;
+}
+
+.sticky {
+    position: sticky;
+    top: 10px;
+    left: 50px;    
+}
+
+.float{
+    float: left;
+    width: 20%;
+}
+
+.container::after {
+    display: block;
+    content: '.';
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}

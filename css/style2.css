@@ -1,0 +1,125 @@
+html {
+    font-family: "Cambria";
+    background-color: #F9F1DD;
+    margin: 0px;
+    padding: 0px;
+}
+
+.head {
+    display: flex;
+    background-color: #EAC14E;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+    align-content: center;
+    justify-content: space-between;
+
+}
+
+img {
+
+}
+
+.headFons {
+    margin-left: 20px;    
+    padding: 10px;
+    color: darkblue;
+}
+
+nav {
+    display: flex;  
+    padding: 10px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.fontwhite {
+    display: block;    
+    background-color: #DA8530;
+    margin: 5px 5px 0px 5px; 
+    padding: 10px 20px;
+    text-align: center; 
+    text-decoration: none;
+    color: white; 
+}
+
+.fontwhite:hover {
+    color: #985644;
+    border-bottom: 1px solid #985644;   
+}
+
+.sub-menu {
+    display: none;
+}
+
+.navButton:hover > .sub-menu {   
+    position: relative;
+    display: flex;
+    flex-direction: column;    
+    background-color: #FAC159;
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    margin: 0px 5px 5px 5px;      
+    padding: 0px 0px;
+    justify-content: center;
+}
+
+.menuList {      
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.menuList:hover {    
+    color: #985644;
+    border-bottom: 1px solid #985644;     
+}
+
+.modal {
+    display: none;
+}
+
+
+#modalLog {
+    display: none;
+}
+
+#modalLink {    
+    display: flex; 
+    align-self: center;
+    background-color: #DA8530;    
+    padding: 10px 20px;
+    text-align: center; 
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+#modalLink:hover {
+    color: #985644;
+    border-bottom: 1px solid #985644;
+    margin-right: 10px;
+}
+
+
+#modal {
+    display: none;
+}
+
+#modal:target {  
+    display: block;
+    position: fixed;
+    top: 100px;
+    bottom: 100px;
+    right: 100px;
+    left: 100px;
+    background-color: grey;
+
+}
+
+.allwindow {
+    
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+}
