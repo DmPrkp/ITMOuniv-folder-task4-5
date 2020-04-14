@@ -2,21 +2,16 @@ html {
     font-family: "Cambria";
     background-color: #F9F1DD;
     margin: 0px;
-    padding: 0px;
+    padding: 0px;    
 }
 
-.head {
+
+
+.head { 
     display: flex;
     background-color: #EAC14E;
-    height: 100px;
-    margin: 0px;
-    padding: 0px;
-    align-content: center;
+    height: 100px;    
     justify-content: space-between;
-
-}
-
-img {
 
 }
 
@@ -28,7 +23,7 @@ img {
 
 nav {
     display: flex;  
-    padding: 10px;
+    padding: 0px;
     justify-content: center;
     flex-direction: row;
 }
@@ -37,10 +32,11 @@ nav {
     display: block;    
     background-color: #DA8530;
     margin: 5px 5px 0px 5px; 
-    padding: 10px 20px;
+    padding: 10px 0px;
     text-align: center; 
     text-decoration: none;
     color: white; 
+    height: 40px;
 }
 
 .fontwhite:hover {
@@ -53,7 +49,7 @@ nav {
 }
 
 .navButton:hover > .sub-menu {   
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: column;    
     background-color: #FAC159;
@@ -75,14 +71,11 @@ nav {
     border-bottom: 1px solid #985644;     
 }
 
-.modal {
-    display: none;
+.width {
+    width: 300px;
 }
 
-
-#modalLog {
-    display: none;
-}
+/*MODAL*/
 
 #modalLink {    
     display: flex; 
@@ -97,7 +90,7 @@ nav {
 
 #modalLink:hover {
     color: #985644;
-    border-bottom: 1px solid #985644;
+    border: 1px solid #985644;
     margin-right: 10px;
 }
 
@@ -107,19 +100,46 @@ nav {
 }
 
 #modal:target {  
-    display: block;
-    position: fixed;
-    top: 100px;
-    bottom: 100px;
-    right: 100px;
-    left: 100px;
-    background-color: grey;
+    display: flex;
+    position: absolute;    
+    background-color: rgba(200, 200, 200, 0.7);
 
 }
 
-.allwindow {
-    
+.allwindow {    
     height: 100%;
     width: 100%;
     background-color: grey;
+    justify-content: center;
 }
+
+.padding {
+    padding: 100px;
+}
+
+fieldset {    
+    height: 200px;
+    width: 200px;
+    background-color: floralwhite;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center; 
+}
+
+.btnModal {    
+    background-color: #DA8530;    
+    padding: 7px 15px;
+    text-align: center; 
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+
+.btnModal:hover {
+    color: #985644;
+    border: 1px solid #985644;
+    margin-right: 10px;
+    background-color: floralwhite;    
+}
+
